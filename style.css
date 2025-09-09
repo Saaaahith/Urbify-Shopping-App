@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin-bottom: 10px;
+}
+.ShoppingContainer {
+  background-color: rgb(165, 165, 237);
+  max-width: 70vw;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 gray;
+}
+body {
+  background-color: rgb(240, 202, 219);
+}
+.ProductItemContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px 20px;
+}
+button {
+  background-color: rgb(69, 69, 213);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+button:hover {
+  background-color: white;
+  color: rgb(69, 69, 213);
+  border-color: rgb(69, 69, 213);
+  font-weight: bold;
+}
+#feedback {
+  position: fixed;
+  top: 100px;
+  right: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px dashed black;
+  max-width: 120px;
+  color: white;
+  display: none;
+}
+#TotalPrice {
+  text-align: right;
+}
